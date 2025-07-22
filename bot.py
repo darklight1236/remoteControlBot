@@ -17,7 +17,7 @@ import keyboard
 
 from CONFIG import *
 from find_app import open_exe
-from hotkey_music import hotkey_music
+#from hotkey_music import hotkey_music
 
 
 voice_text = None
@@ -109,10 +109,12 @@ def test(message):
 
 
     elif voice_text == "следующий трек":
-        hotkey_music('n')
+        #hotkey_music('n')
+        pass
 
     elif voice_text == "предыдущий трек":
-        hotkey_music('p')
+        #hotkey_music('p')
+        pass
 
     #not work
     #elif voice_text == "прибавь громкость":
